@@ -55,12 +55,18 @@ public class Main {
 
         System.out.println("Задача № 9");
         int savingMoney = 29000;
-        double totalMoney = 0;
-        for (int i = 0; i < 12; i=i+290) {
-            totalMoney = totalMoney ;
+        int totalMoney = 0;
+        for (int i = 0; i < 12; i++) {
+            totalMoney = totalMoney + savingMoney/100;
             System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney);
-
         }
+
+
+        System.out.println("Задача № 10");
+        for (int i = 1; i<= 10; i++){
+           System.out.println("2 * " + i + " = " + (i * 2));
+        }
+
     }
 
 }
