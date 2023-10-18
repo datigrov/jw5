@@ -54,11 +54,11 @@ public class Main {
 
 
         System.out.println("Задача № 9");
-        int savingMoney = 29000;
-        int totalMoney = 0;
-        for (int i = 0; i < 12; i++) {
-            totalMoney = totalMoney + savingMoney/100;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + totalMoney);
+        double salary = 29000;
+        double percent = 0.01;
+        for (int i = 0; i < 12; i++){
+            salary = salary +  salary * percent;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + salary);
         }
 
 
